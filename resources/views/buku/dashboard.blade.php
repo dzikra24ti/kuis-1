@@ -58,7 +58,7 @@
 
             <!-- Nav Item - Utilities Collapse Menu -->
             <li class="nav-item">
-                <a class="nav-link collapsed" href="{{ asset('assets-buku/css/sb-admin-2.css') }}" data-toggle="collapse" data-target="#collapseUtilities"
+                <a class="nav-link collapsed" href="{{{ route('buku.index') }}" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
                     <span>Buku</span>
